@@ -1,0 +1,23 @@
+[project]
+name = "barcodejun"
+version = "1.0.0"
+authors = [
+    { name = "ElevenTreeHole", email = "ElevenTreeHole@gmail.com" },
+]
+description = "A barcode generator package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.optional-dependencies]
+cli = ["git", "cmake"]
+
+[project.urls]
+"Homepage" = "https://github.com/ElevenTreeHole/barcodejun"
+"Bug Tracker" = "https://github.com/ElevenTreeHole/barcodejun/issues"
+
+[project.scripts]
+test-script = "barcodejun.install:test_install"
