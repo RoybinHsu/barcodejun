@@ -13,11 +13,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 [project.optional-dependencies]
-cli = ["git", "cmake"]
 
 [project.urls]
 "Homepage" = "https://github.com/ElevenTreeHole/barcodejun"
 "Bug Tracker" = "https://github.com/ElevenTreeHole/barcodejun/issues"
 
-[project.scripts]
-test-script = "barcodejun.install:test_install"

@@ -23,3 +23,4 @@ venv
 .env
 build
 **.egg-info
+.zint
