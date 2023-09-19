@@ -18,3 +18,16 @@ classifiers = [
 "Homepage" = "https://github.com/ElevenTreeHole/barcodejun"
 "Bug Tracker" = "https://github.com/ElevenTreeHole/barcodejun/issues"
 
+[[tool.mypy.overrides]]
+module = "fastapi.tests.*"
+ignore_missing_imports = true
+check_untyped_defs = true
+
+
+[tool.coverage.run]
+parallel = true
+source = [
+    "tests",
+    "barcodejun"
+]
+context = '${CONTEXT}'
