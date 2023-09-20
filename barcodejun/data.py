@@ -564,7 +564,6 @@ class BarcodeData(object):
             vwhitesp: int = None,
             werror: bool = False,
     ):
-        # self.__input_kwargs = kwargs
         self.barcode = barcode
         self.addongap = addongap
         self.batch = batch
@@ -625,11 +624,5 @@ class BarcodeData(object):
         self.vers = vers
         self.vwhitesp = vwhitesp
         self.werror = werror
-        # print("barcodedata __init__", self.__dict__)
-        # for k, v in self.__dict__.items():
-        #     if type(v) in (str, int, float,) and v is not None:
-        #         self.__input_kwargs.setdefault(k, v)
-        #     elif type(v) in (bool,) and v:
-        #         self.__input_kwargs.setdefault(k, v)
 
     pass
