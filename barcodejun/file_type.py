@@ -1,6 +1,6 @@
 
 
-class BarcodeFileType:
+class BarcodeFileType(object):
     TYPE_BMP = "bmp"
     TYPE_EMF = "emf"
     TYPE_EPS = "eps"

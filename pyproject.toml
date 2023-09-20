@@ -13,6 +13,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 [project.optional-dependencies]
+["PIL"]
 
 [project.urls]
 "Homepage" = "https://github.com/ElevenTreeHole/barcodejun"

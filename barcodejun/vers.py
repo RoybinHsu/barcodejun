@@ -1,5 +1,4 @@
-
-class BarcodeVers:
+class BarcodeVers(object):
     SIZE_10_10 = 1
     SIZE_12_12 = 2
     SIZE_14_14 = 3
@@ -48,4 +47,3 @@ class BarcodeVers:
     SIZE_26_40 = 46
     SIZE_26_48 = 47
     SIZE_26_64 = 48
-

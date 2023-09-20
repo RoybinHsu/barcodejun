@@ -1,4 +1,4 @@
-class BarcodeType:
+class BarcodeType(object):
     CODE11 = 1  # Code 11
     C25STANDARD = 2  # Standard Code 2 of 5
     C25INTER = 3  # Interleaved 2 of 5
