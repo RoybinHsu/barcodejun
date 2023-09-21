@@ -68,6 +68,7 @@ class Barcode(object):
 
     def generate(self, data: BarcodeData) -> Any:
         """
+        :exception Exception
         :returns: An :py:class:`~PIL.Image.Image` object.
         """
         self.build(data=data)
