@@ -51,3 +51,17 @@ class TestBarcodeGenerate(unittest.TestCase):
         )
         self.barcode.generate(data=barcode_data)
         self.assertTrue(os.path.exists(self.output))
+
+    def test(self):
+        barcode_data = BarcodeData(
+            data="[420]77030[94]00136105440331666909",
+            barcode=BarcodeType.DATAMATRIX,
+            gs1=True,
+            scale=4,
+            square=True,
+            vers=BarcodeVers.SIZE_20_20,
+            notext=True,
+            direct=True
+        )
+        barcode_creator = Barcode()
+        barcode_creator.generate(data=barcode_data)
