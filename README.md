@@ -129,6 +129,16 @@
 #### 安装barcodejun库
 
 - 1
+  ```
+  pip install barcodejun
+  ```
+- 2
+    ```
+    # 进入项目目录
+    $ cd $YourProjectPath
+    $ pip install git+https://github.com/ElevenTreeHole/barcodejun.git@v1.0.0
+    ```
+- 3
     ```
     # 克隆代码
     $ git clone git@github.com:ElevenTreeHole/barcodejun.git /path/to/barcodejun
@@ -137,12 +147,6 @@
     $ pip install /path/to/barcodejun
     ```
 
-- 2
-    ```
-    # 进入项目目录
-    $ cd $YourProjectPath
-    $ pip install git+https://github.com/ElevenTreeHole/barcodejun.git@v1.0.0
-    ```
 
 #### 示例
 
